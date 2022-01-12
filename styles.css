@@ -63,7 +63,7 @@ video {
 	  display: block;
 		z-index: 3;
 		fill: rgb(111, 0, 0);
-		filter: drop-shadow(0.4vw 0.4vw rgba(0,0,0,1));
+		filter: drop-shadow(0.2vw 0.2vw rgba(0,0,0,1));
 
 	}
 .bubble:hover {
@@ -88,7 +88,7 @@ video {
 	  animation-delay: .5s;
 	}
 	#bubble1:hover {
-		filter: drop-shadow(.4vw .4vw rgba(0,0,0,1));
+		filter: drop-shadow(.2vw .2vw rgba(0,0,0,1));
 	  transform: translate(0, -20%);
 		fill: rgb(177, 35, 35);
 	}
