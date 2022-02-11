@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Nunito:wght@400;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.container1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+.text1 {
+  display: inline-block;
+  background: linear-gradient(180deg,#ffffff,#808080);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 96px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text1_1 {
+  display: inline-block;
+  background-color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 96px;
+  border-radius: 5px;
+  animation: chink 1s steps(1, start) infinite;
+}
+@keyframes chink {
+  50% {
+      background: linear-gradient(180deg,#ffffff,#808080);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+}
+.container2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+.text2 {
+  background: linear-gradient(180deg,#ffffff,#808080);
+  font-family: 'Monaco', 'Azeret Mono', monospace;
+  font-size: 24px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+}
+.text3 {
+  background: linear-gradient(180deg,#ffffff,#808080);
+  font-family: 'Monaco', 'Azeret Mono', monospace;
+  font-size: 24px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 130%);
+}
+.text4 {
+  background: linear-gradient(180deg,#ffffff,#808080);
+  font-family: 'Monaco', 'Azeret Mono', monospace;
+  font-size: 24px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
+body {
+  background-color: #070707;
+}
